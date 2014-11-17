@@ -1,6 +1,6 @@
 module sector (a)
 {
-	module sq
+	module sq() 
 	{
 	assign(r=100)
 	translate([0, r/2,0]) square(r,center=true);
